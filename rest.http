@@ -1,0 +1,11 @@
+GET http://localhost:3001/token
+
+###
+
+POST http://localhost:3001/message
+Content-Type: application/json
+
+{
+    "message": "Hello World with Better Cookies",
+    "x": "res.cookie("message", "carsten")"
+}
